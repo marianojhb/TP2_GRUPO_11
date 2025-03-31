@@ -9,7 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div>Ingrese nombre del producto:
+            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
         </div>
     </form>
 </body>
