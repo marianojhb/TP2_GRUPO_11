@@ -8,9 +8,18 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>Ingrese nombre del producto:
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    <form id="formularioEj1" runat="server">
+        <div id="divProducto1" style="display: flex; gap: 10px">
+            <label id="lblProducto1">Ingrese el nombre del producto:</label>
+            <asp:TextBox ID="txtBoxProducto1" runat="server"></asp:TextBox>
+            <label id="lblCantidad1">Cantidad:</label>
+            <asp:TextBox ID="txtBoxCantidad1" runat="server"></asp:TextBox>
+        </div>
+        <div id="divProducto2" style="display: flex; gap: 10px">
+            <label id="lblProducto2">Ingrese el nombre del producto:</label>
+            <asp:TextBox ID="txtProducto2" runat="server"></asp:TextBox>
+            <label id="lblCantidad2">Cantidad:</label>
+            <asp:TextBox ID="txtCantidad2" runat="server"></asp:TextBox>
         </div>
     </form>
 </body>
