@@ -20,7 +20,10 @@
             <asp:TextBox ID="txtProducto2" runat="server"></asp:TextBox>
             <label id="lblCantidad2">Cantidad:</label>
             <asp:TextBox ID="txtCantidad2" runat="server"></asp:TextBox>
+            <br />
+            <br />
         </div>
+     <asp:button runat="server" Text="Generar tabla" ID="btn_agregar" OnClick="btn_agregar_Click"> </asp:button>
     </form>
 </body>
 </html>
