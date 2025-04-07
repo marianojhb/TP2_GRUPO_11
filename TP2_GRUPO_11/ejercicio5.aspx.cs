@@ -46,7 +46,7 @@ namespace TP2_GRUPO_11
 
             suma = memoria + accesorios;
 
-            lblPrecioFinal.Text = "El Precio Final es de " + suma.ToString();
+            lblPrecioFinal.Text = "El Precio Final es de $" + suma.ToString("F");
             
         }
     }

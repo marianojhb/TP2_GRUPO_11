@@ -13,6 +13,7 @@
             <h2>Elija su configuración</h2>
             <h3>Seleccione la cantidad de memoria:</h3>
             <asp:DropDownList ID="ddlRam" runat="server">
+                <asp:ListItem></asp:ListItem>
                 <asp:ListItem>2 GB</asp:ListItem>
                 <asp:ListItem>4 GB</asp:ListItem>
                 <asp:ListItem>6 GB</asp:ListItem>
