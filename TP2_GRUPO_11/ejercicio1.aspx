@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
 </head>
 <body>
@@ -20,10 +20,14 @@
             <asp:TextBox ID="txtProducto2" runat="server"></asp:TextBox>
             <label id="lblCantidad2">Cantidad:</label>
             <asp:TextBox ID="txtCantidad2" runat="server"></asp:TextBox>
-            <br />
-            <br />
         </div>
-     <asp:button runat="server" Text="Generar tabla" ID="btn_agregar" OnClick="btn_agregar_Click"> </asp:button>
+        
+        <asp:Button id ="btnGenerar" runat ="server" Text ="Generar Tabla" OnClick="btnGenerar_Click"/>
+     
+        <p>
+            <asp:Label ID="lblTabla" runat="server" Text=""></asp:Label>
+        </p>
+     
     </form>
 </body>
 </html>
