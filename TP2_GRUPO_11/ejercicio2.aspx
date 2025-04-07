@@ -8,8 +8,8 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+    <form id="formularioEj2" runat="server" style="padding: 10px;">
+        <div id="divNomYApe">
             <asp:Label runat="server" Text="Nombre:"> </asp:Label>
 
             <asp:TextBox runat="server" ID="txt_nombre" placeholder="Ingrese el nombre..."  > </asp:TextBox>
@@ -25,7 +25,7 @@
             </asp:TextBox>
         </div>
         <br />
-        <div>
+        <div id="divCiudad">
             <asp:Label ID="lblCiudad" runat="server" Text="Ciudad: "></asp:Label>
              <asp:DropDownList ID ="dblCiudad" runat="server">
              <asp:ListItem Text ="Gral. Pacheco" Value="Zona norte"></asp:ListItem>
@@ -33,7 +33,16 @@
              <asp:ListItem Text ="Boedo" Value="Zona sur"></asp:ListItem>
              </asp:DropDownList>
         </div>
-        
+        <br />
+        <div id="divTemas" style="display: flex; gap:10px; padding-bottom: 10px;">
+            <asp:Label Text="Temas: " runat="server" />
+            <asp:CheckBoxList runat="server">
+                <asp:ListItem Text="Ciencias" />
+                <asp:ListItem Text="Literatura" />
+                <asp:ListItem Text="Historia" />
+            </asp:CheckBoxList>
+        </div>
+        <asp:Button runat="server" Text="Ver Resumen" ID="btnResumen" OnClick="btnVerResumen"/>
     </form>
 </body>
 </html>

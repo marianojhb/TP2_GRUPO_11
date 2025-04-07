@@ -15,13 +15,13 @@ namespace TP2_GRUPO_11
     {
 
         /// <summary>
-        /// Control form1.
+        /// Control formularioEj2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formularioEj2;
 
         /// <summary>
         /// Control txt_nombre.
@@ -58,5 +58,14 @@ namespace TP2_GRUPO_11
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList dblCiudad;
+
+        /// <summary>
+        /// Control btnResumen.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnResumen;
     }
 }

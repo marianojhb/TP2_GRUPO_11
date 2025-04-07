@@ -14,6 +14,9 @@ namespace TP2_GRUPO_11
 
         }
 
-        
+        protected void btnVerResumen(object sender, EventArgs e)
+        {
+
+        }
     }
 }
