@@ -21,8 +21,19 @@
 
             <asp:Label runat="server" Text="Apellido:"> </asp:Label>
 
-            <asp:TextBox runat="server" ID="txt_apellido" placeholder="Ingrese el apellido..."> </asp:TextBox>
+            <asp:TextBox runat="server" ID="txt_apellido" placeholder="Ingrese el apellido...">
+            </asp:TextBox>
         </div>
+        <br />
+        <div>
+            <asp:Label ID="lblCiudad" runat="server" Text="Ciudad: "></asp:Label>
+             <asp:DropDownList ID ="dblCiudad" runat="server">
+             <asp:ListItem Text ="Gral. Pacheco" Value="Zona norte"></asp:ListItem>
+             <asp:ListItem Text ="San Miguel" Value="Zona oeste"></asp:ListItem>
+             <asp:ListItem Text ="Boedo" Value="Zona sur"></asp:ListItem>
+             </asp:DropDownList>
+        </div>
+        
     </form>
 </body>
 </html>
