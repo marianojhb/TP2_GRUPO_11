@@ -17,7 +17,7 @@ namespace TP2_GRUPO_11
 
         protected void btnVerResumen(object sender, EventArgs e)
         {
-            Response.Redirect("ejercicio2resumen.aspx?Nom=" + HttpUrlEncodedBinding(txt_nombre.Text);
+            Response.Redirect("ejercicio2resumen.aspx?Nom=" + HttpUtility.UrlEncode(txt_nombre.Text));
         }
     }
 }
