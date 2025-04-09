@@ -42,6 +42,15 @@ namespace TP2_GRUPO_11
     protected global::System.Web.UI.WebControls.TextBox txt_apellido;
 
     /// <summary>
+    /// lblErrosFullname control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label lblErrosFullname;
+
+    /// <summary>
     /// lblCiudad control.
     /// </summary>
     /// <remarks>
@@ -67,6 +76,15 @@ namespace TP2_GRUPO_11
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
     protected global::System.Web.UI.WebControls.CheckBoxList chkListTopics;
+
+    /// <summary>
+    /// lblChekListError control.
+    /// </summary>
+    /// <remarks>
+    /// Auto-generated field.
+    /// To modify move field declaration from designer file to code-behind file.
+    /// </remarks>
+    protected global::System.Web.UI.WebControls.Label lblChekListError;
 
     /// <summary>
     /// btnResumen control.

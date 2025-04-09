@@ -23,6 +23,9 @@
 
             <asp:TextBox runat="server" ID="txt_apellido" placeholder="Ingrese el apellido...">
             </asp:TextBox>
+            <br /> 
+            <br />  
+                <asp:Label runat="server" ID="lblErrosFullname" Font-Bold="True" ForeColor="#FF3300"></asp:Label>
         </div>
         <br />
         <div id="divCiudad">
@@ -41,7 +44,9 @@
                 <asp:ListItem Text="Literatura" />
                 <asp:ListItem Text="Historia" />
             </asp:CheckBoxList>
+            <asp:Label runat="server" ID="lblChekListError" Font-Bold="True" ForeColor="#FF3300"> </asp:Label>
         </div>
+          
         <asp:Button runat="server" Text="Ver Resumen" ID="btnResumen" OnClick="btnVerResumen"/>
     </form>
 </body>
