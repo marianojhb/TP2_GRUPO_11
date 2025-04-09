@@ -36,7 +36,7 @@
         <br />
         <div id="divTemas" style="display: flex; gap:10px; padding-bottom: 10px;">
             <asp:Label Text="Temas: " runat="server" />
-            <asp:CheckBoxList runat="server">
+            <asp:CheckBoxList runat="server" ID="chkListTopics">
                 <asp:ListItem Text="Ciencias" />
                 <asp:ListItem Text="Literatura" />
                 <asp:ListItem Text="Historia" />

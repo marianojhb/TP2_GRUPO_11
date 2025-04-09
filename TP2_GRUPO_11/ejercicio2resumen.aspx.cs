@@ -11,7 +11,24 @@ namespace TP2_GRUPO_11
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+          string name = Request["txt_nombre"];
+          string surname = Request["txt_apellido"];
+          string zona = Request["dblCiudad"];
 
-        }
+          lblShowName.Text = name;
+          lblShowSurname.Text = surname;
+          lblShowZona.Text = zona;
+
+          CheckBoxList chkList = new CheckBoxList();
+          chkList = ((CheckBoxList)(PreviousPage.FindControl("chkListTopics")));
+
+          foreach (ListItem item in chkList.Items)
+          {
+            if (item.Selected)
+            {
+              lblShowSubjects.Text += item + "<br/>";
+            }
+          }
     }
+  }
 }
