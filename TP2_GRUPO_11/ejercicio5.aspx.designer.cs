@@ -42,13 +42,13 @@ namespace TP2_GRUPO_11
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// Control DropDownList1.
+        /// Control DropDownListMemoria.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListMemoria;
 
         /// <summary>
         /// Control Label3.
@@ -60,22 +60,22 @@ namespace TP2_GRUPO_11
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control CheckBoxList1.
+        /// Control checkBoxLstAccesorios.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+        protected global::System.Web.UI.WebControls.CheckBoxList checkBoxLstAccesorios;
 
         /// <summary>
-        /// Control Button1.
+        /// Control btnCalcularPrecio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnCalcularPrecio;
 
         /// <summary>
         /// Control txtPrecioFinal.

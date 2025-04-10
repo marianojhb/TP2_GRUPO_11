@@ -10,6 +10,20 @@
         .auto-style1 {
             margin-left: 80px;
         }
+
+        .btnCalcularPrecio {
+            margin-left: 52px;
+            border: solid 1px;
+            border-radius: 8px;
+            padding: 8px;
+            cursor: pointer;
+            background-color: #FAFAFA;
+            transition: 0.4s ease;
+        }
+
+        .btnCalcularPrecio:hover {
+            background-color: #cecece;
+        }
     </style>
 </head>
 <body>
@@ -24,7 +38,7 @@
             <br class="auto-style1" />
             <br class="auto-style1" />
             <br class="auto-style1" />
-            <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="margin-left: 61px" Width="129px">
+            <asp:DropDownList ID="DropDownListMemoria" runat="server" style="margin-left: 61px" Width="129px">
                 <asp:ListItem Value="200">2 GB</asp:ListItem>
                 <asp:ListItem Value="375">4 GB</asp:ListItem>
                 <asp:ListItem Value="500">6 GB</asp:ListItem>
@@ -33,14 +47,14 @@
             <br class="auto-style1" />
             <asp:Label ID="Label3" runat="server" Font-Bold="True" Text="Seleccione accesorios:"></asp:Label>
             <br class="auto-style1" />
-            <asp:CheckBoxList ID="CheckBoxList1" runat="server" style="margin-left: 62px">
+            <asp:CheckBoxList ID="checkBoxLstAccesorios" runat="server" style="margin-left: 62px">
                 <asp:ListItem Value="2000,50">Monitor LCD</asp:ListItem>
                 <asp:ListItem Value="550,50">HD 500GB</asp:ListItem>
                 <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
             </asp:CheckBoxList>
             <br class="auto-style1" />
             <br class="auto-style1" />
-            <asp:Button ID="Button1" runat="server" style="margin-left: 52px" Text="Calcular Precio" Width="146px" />
+            <asp:Button ID="btnCalcularPrecio" runat="server" class="btnCalcularPrecio" Text="Calcular Precio" Width="146px" OnClick="btnPrecioCalculado" />
             <br class="auto-style1" />
             <br class="auto-style1" />
             <br class="auto-style1" />
