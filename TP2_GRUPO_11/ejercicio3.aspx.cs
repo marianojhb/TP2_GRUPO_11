@@ -23,7 +23,7 @@ namespace TP2_GRUPO_11
 
         protected void btnAzul_Click(object sender, EventArgs e)
         {
-            btnAzul.ForeColor = System.Drawing.Color.DodgerBlue;
+            lblColoreado.ForeColor = System.Drawing.Color.Blue;
         }
 
         protected void btnVerde_Click(object sender, EventArgs e)
