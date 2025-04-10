@@ -24,12 +24,8 @@ namespace TP2_GRUPO_11
 
         protected void btnAzul_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             lblColoreado.ForeColor = System.Drawing.Color.Blue;
-=======
             btnAzul.ForeColor = System.Drawing.Color.DodgerBlue;
-            lblColoreado.ForeColor = System.Drawing.Color.DodgerBlue;
->>>>>>> ffe1c2ec240638ac6a853291804ce17344e9ab26
         }
 
         protected void btnVerde_Click(object sender, EventArgs e)
