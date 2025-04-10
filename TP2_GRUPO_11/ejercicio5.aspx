@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm5.aspx.cs" Inherits="TP2_GRUPO_11.WebForm5" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ejercicio5.aspx.cs" Inherits="TP2_GRUPO_11.WebForm5" %>
 
 <!DOCTYPE html>
 
@@ -6,10 +6,49 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            margin-left: 80px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="auto-style1">
+            <br class="auto-style1" />
+            <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="XX-Large" Font-Strikeout="False" Font-Underline="False" Text="Elija su configuración"></asp:Label>
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <asp:Label ID="Label2" runat="server" Font-Bold="True" Text="Selecicion cantidad de memoria:"></asp:Label>
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" style="margin-left: 61px" Width="129px">
+                <asp:ListItem Value="200">2 GB</asp:ListItem>
+                <asp:ListItem Value="375">4 GB</asp:ListItem>
+                <asp:ListItem Value="500">6 GB</asp:ListItem>
+            </asp:DropDownList>
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <asp:Label ID="Label3" runat="server" Font-Bold="True" Text="Seleccione accesorios:"></asp:Label>
+            <br class="auto-style1" />
+            <asp:CheckBoxList ID="CheckBoxList1" runat="server" style="margin-left: 62px">
+                <asp:ListItem Value="2000,50">Monitor LCD</asp:ListItem>
+                <asp:ListItem Value="550,50">HD 500GB</asp:ListItem>
+                <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
+            </asp:CheckBoxList>
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <asp:Button ID="Button1" runat="server" style="margin-left: 52px" Text="Calcular Precio" Width="146px" />
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <asp:Label ID="txtPrecioFinal" runat="server" Font-Bold="True"></asp:Label>
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <br class="auto-style1" />
+            <br class="auto-style1" />
         </div>
     </form>
 </body>
