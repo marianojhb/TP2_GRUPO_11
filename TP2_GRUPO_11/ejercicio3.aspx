@@ -10,9 +10,9 @@
 <body>
     <form id="formularioEj3" runat="server">
         <div id="divColores" style="display: flex; flex-direction: column; gap: 20px; padding: 30px">
-            <asp:button style="width:55px; cursor: pointer; background: none; border: 1px solid black; border-radius: 6px; padding:10px;" id="btnRojo" Text="Rojo" runat="server"/>
-            <asp:button style="width:55px; cursor: pointer; background: none; border: 1px solid black; border-radius: 6px; padding:10px;" id="btnAzul" Text="Azul" runat="server"/>
-            <asp:button style="width:55px; cursor: pointer; background: none; border: 1px solid black; border-radius: 6px; padding:10px;" id="btnVerde" Text="Verde" runat="server"/>
+            <asp:button style="width:55px; cursor: pointer; background: none; border: 1px solid black; border-radius: 6px; padding:10px;" id="btnRojo" Text="Rojo" runat="server" OnClick="btnRojo_Click"/>
+            <asp:button style="width:55px; cursor: pointer; background: none; border: 1px solid black; border-radius: 6px; padding:10px;" id="btnAzul" Text="Azul" runat="server" OnClick="btnAzul_Click"/>
+            <asp:button style="width:55px; cursor: pointer; background: none; border: 1px solid black; border-radius: 6px; padding:10px;" id="btnVerde" Text="Verde" runat="server" OnClick="btnVerde_Click"/>
             <asp:Label style="padding-top: 20px;" ID="lblColoreado" Text="Texto Coloreado" runat="server" />
         </div>
     </form>

@@ -15,5 +15,20 @@ namespace TP2_GRUPO_11
         {
 
         }
+
+        protected void btnRojo_Click(object sender, EventArgs e)
+        {
+            btnRojo.ForeColor = System.Drawing.Color.Red;
+        }
+
+        protected void btnAzul_Click(object sender, EventArgs e)
+        {
+            btnAzul.ForeColor = System.Drawing.Color.DodgerBlue;
+        }
+
+        protected void btnVerde_Click(object sender, EventArgs e)
+        {
+            btnVerde.ForeColor = System.Drawing.Color.Green;
+        }
     }
 }
