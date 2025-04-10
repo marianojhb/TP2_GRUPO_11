@@ -16,7 +16,17 @@ namespace TP2_GRUPO_11
 
         protected void validar_Click(object sender, EventArgs e)
         {
-
+            if (txtUsuario.Text != null || txtClave.Text != null)
+            {
+                if (txtUsuario.Text == "claudio" && txtClave.Text == "casas")
+                {
+                    Server.Transfer("ejercicio4B.aspx");
+                }
+                else
+                {
+                    Server.Transfer("ejercicio4C.aspx");
+                }
+            }
         }
     }
 }
