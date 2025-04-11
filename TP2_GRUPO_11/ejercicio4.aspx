@@ -23,9 +23,9 @@
                 <asp:Button ID="validar" runat="server" Text="Validar" Width="100px" OnClick="validar_Click" />
             </div>
         </div>
-        <p>
-            <asp:Label ID="lblMensaje" runat="server"></asp:Label>
-        </p>
+        
+           <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+      
     </form>
 </body>
 </html>

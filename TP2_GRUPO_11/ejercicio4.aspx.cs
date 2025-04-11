@@ -29,7 +29,7 @@ namespace TP2_GRUPO_11
             }
             else
             {
-                lblMensaje.Text = "Usted no ingreso nada";
+                lblMensaje.Text = "No se ingreso nada";
             }
         }
     }
