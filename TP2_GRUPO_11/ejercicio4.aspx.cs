@@ -27,6 +27,10 @@ namespace TP2_GRUPO_11
                     Server.Transfer("ejercicio4C.aspx");
                 }
             }
+            else
+            {
+                lblMensaje.Text = "Usted no ingreso nada";
+            }
         }
     }
 }
