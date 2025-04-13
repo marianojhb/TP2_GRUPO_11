@@ -19,16 +19,30 @@ namespace TP2_GRUPO_11
             string valorSeleccionado = DropDownListMemoria.SelectedValue;
             decimal precioG = Convert.ToDecimal(valorSeleccionado);
             decimal totalP = 0;
+            bool itemSeleccionado = false;
 
             foreach (ListItem item in checkBoxLstAccesorios.Items)
             {
                 if (item.Selected)
                 {
                     totalP += Convert.ToDecimal(item.Value);
+                    itemSeleccionado = true;
                 }
             }
             decimal precioF = precioG + totalP;
-            txtPrecioFinal.Text = $"El precio final es de: ${precioF}"; 
+
+            if (!itemSeleccionado)
+            {
+                txtPrecioFinal.Text = $"El precio final es de: ${precioF} ";
+                lb_noselec.Text = "No se seleccionó ningun accesorio";
+
+            }
+            else
+            {
+
+                txtPrecioFinal.Text = $"El precio final es de: ${precioF}";
+                lb_noselec.Text = " ";
+            }
         }
     }
 }

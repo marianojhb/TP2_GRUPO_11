@@ -69,6 +69,15 @@ namespace TP2_GRUPO_11
         protected global::System.Web.UI.WebControls.CheckBoxList checkBoxLstAccesorios;
 
         /// <summary>
+        /// Control lb_noselec.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_noselec;
+
+        /// <summary>
         /// Control btnCalcularPrecio.
         /// </summary>
         /// <remarks>

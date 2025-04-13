@@ -52,6 +52,8 @@
                 <asp:ListItem Value="550,50">HD 500GB</asp:ListItem>
                 <asp:ListItem Value="1200">Grabador DVD</asp:ListItem>
             </asp:CheckBoxList>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lb_noselec" runat="server" Font-Bold="True" ForeColor="Red" Text="  "></asp:Label>
             <br class="auto-style1" />
             <br class="auto-style1" />
             <asp:Button ID="btnCalcularPrecio" runat="server" class="btnCalcularPrecio" Text="Calcular Precio" Width="146px" OnClick="btnPrecioCalculado" />
